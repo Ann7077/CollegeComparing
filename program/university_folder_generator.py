@@ -3,7 +3,7 @@
 import os
 import csv
 
-year = '2022'   # Change manually 
+year = '2024'   # Change manually each year
 
 try:
     with open("college_list.csv") as csvfile:

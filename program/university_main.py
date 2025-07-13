@@ -20,7 +20,7 @@ with open('college_list.csv') as f:
     # call on university.py
 
 if __name__ == '__main__':
-    row = 1
+    row = 0
     while row < len(college_list)+1:
         college = university.university(college_list[row][1], college_list[row][2], college_list[row][0], university_folder_generator.year)
         college.save()

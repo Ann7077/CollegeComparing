@@ -1,3 +1,5 @@
+# This file search College Navigator and download the information onto local csv files
+
 # import university_folder_generator
 import requests
 from bs4 import BeautifulSoup
@@ -62,7 +64,7 @@ class university:
 if __name__ == '__main__':
     college1 = university('University of Portland', 'OR', '209825', '2022')
     college1.save()
-    # college2 = university('University of Washington-Seattle Campus', 'WA', '236948', '2022')
+    # college2 = university('University of the Virgin Islands-Albert A. Sheen', 'VI', '24366501', '2024')
     # college2.save()
     # college3 = university('AdventHealth University', 'FL', '133872', '2022')
     # college3.save()

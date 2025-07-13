@@ -1,3 +1,5 @@
+# Need modification, certain sections migh have changed names or years
+
 class ItemDef:
     def __init__(this, CNid, description, name): 
         this.CNid = CNid
